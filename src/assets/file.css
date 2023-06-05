@@ -1,0 +1,21 @@
+.layout {
+  display: flex;
+}
+.side-bar {
+  width: 250px;
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+}
+.children {
+  flex: 1;
+  margin-left: 250px;
+  /*text-align: center;*/
+  margin-top: 10%;
+}
+
+.container-user {
+  display: flex;
+  justify-content: space-around;
+}
